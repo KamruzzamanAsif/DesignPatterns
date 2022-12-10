@@ -1,5 +1,5 @@
 package SolidPrinciples;
 
-public interface Shape {
-    double getArea();
+public abstract class Shape {
+    abstract double getArea();
 }

@@ -1,12 +1,11 @@
 package SolidPrinciples;
 
-public class Rectangle implements Shape{
+public class Rectangle extends Shape{
     int height, width;
-    public void setSize(int h, int w){
+    public Rectangle(int h, int w){
         height = h;
         width = w;
     }
-
     public double getArea(){
         return height*width;
     }
