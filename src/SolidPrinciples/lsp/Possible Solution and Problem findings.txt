@@ -1,0 +1,51 @@
+### Possible Solution ###
+
+public class Rectangle{
+    double height, width;
+
+    public void setHeight(int height){
+        this.height = height;
+    }
+    public void setWidth(double width){
+        this.width = width;
+    }
+
+    public double getArea(){
+        return height*width;
+    }
+}
+
+public class Square extends Rectangle{
+
+    @Override
+    public void setHeight(int height){
+        this.height = height;
+        this.width = width;
+    }
+    @Override
+    public void setWidth(int width){
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double getArea(){
+        return super.getArea();
+    }
+}
+
+
+### Problems ###
+To solve our given problem we can design a solution where the setWidth (respectively setHeight)
+method is changed to set the height equal to the width (respectively to set the width equal to the height).
+However, the problem is when setWidth (respectively setHeight) is called it will overwrite
+the value of the height (respectively width). Hence, a user that first sets the width to 5
+and then the height to 3 will expect the area to be 16, but instead it will be 12.
+This again violates the Liskov substitution principle.
+
+### Solution ###
+We can introduce a "Shape" base class or an "IShape" interface that is shared by rectangles and squares.
+The base class would not include properties for Height and Width, instead allowing the dimensions of
+different shapes to be handled by their implementations. A Rectangle subclass would have Height and Width
+properties and a Square may have a single Size value.
+In the future, classes such as Pentagon, may be defined using multiple length and angle properties.

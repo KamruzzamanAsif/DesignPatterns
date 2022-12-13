@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="initial commit">
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="class practice">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Possible Solution and Problem findings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Solution/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Solution/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Solution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Solution/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidPrinciples/lsp/Square.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.SolidPrinciples.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.SolidPrinciples.lsp.Solution.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Design Patterns" />
@@ -62,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolidPrinciples.lsp.Solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SolidPrinciples.lsp.Solution.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SolidPrinciples.lsp.Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolidPrinciples.lsp.Solution.Main" />
         <item itemvalue="Application.SolidPrinciples.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -78,11 +101,19 @@
       <option name="presentableId" value="Default" />
       <updated>1670319725487</updated>
     </task>
+    <task id="LOCAL-00001" summary="class practice">
+      <created>1670828366506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670828366506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="class practice" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="class practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="class practice" />
   </component>
 </project>
