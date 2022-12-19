@@ -1,4 +1,4 @@
-package SolidPrinciples;
+package SolidPrinciples.lsp.TempSolution;
 
 public class Main {
     public static void main(String[] args) {

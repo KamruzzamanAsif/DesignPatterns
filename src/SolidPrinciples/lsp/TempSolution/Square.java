@@ -1,6 +1,8 @@
-package SolidPrinciples;
+package SolidPrinciples.lsp.TempSolution;
 
-public class Square extends Shape{
+import SolidPrinciples.lsp.TempSolution.Shape;
+
+public class Square extends Shape {
     int length;
     public Square(int len){
         length = len;

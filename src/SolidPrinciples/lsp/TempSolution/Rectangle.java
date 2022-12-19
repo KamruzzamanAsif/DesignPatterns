@@ -1,6 +1,6 @@
-package SolidPrinciples;
+package SolidPrinciples.lsp.TempSolution;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     int height, width;
     public Rectangle(int h, int w){
         height = h;
