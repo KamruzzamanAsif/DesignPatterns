@@ -1,0 +1,24 @@
+>>>>>> FizzBuzz.java <<<<<<<<
+1. Inappropriate naming smell:
+    Method name "say" doesn't make any sense about its functionality
+    So, I changed the name to "getStringOnBasisOfNumber"
+2. Long method smell:
+    The method "say" is hard to quickly comprehend
+    So, I extract method isFactorOfThree() and isFactorOfFive()
+3. Data redundancy:
+    The variable "strReturn" is redundant here
+    We can simply return our desired string directly
+4. Comment smell:
+    The class has some comments to understand its responsibility
+    I increased the understanding of its responsibility through
+    the above described actions in point 1, 2, and 3.
+
+
+>>>>>> PlaintextToHtmlConverter <<<<<<<
+1. Black Sheep smell:
+    The method "read" is noticeably different from other methods in
+    the class. So, I made a new class named "FileReader" and added
+    a "readFile" method for reading files which is being called from
+    our main class.
+2.
+
