@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="lsp">
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/HtmlEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/LessThanChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/PlaintextToHtmlConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/PlainTextToHtml/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/PlainTextToHtml/PlaintextToHtmlConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/refactor.txt" afterDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment">
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/PlainTextToHtml/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Solution/PlainTextToHtml/PlaintextToHtmlConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Solution/PlainTextToHtml/PlaintextToHtmlConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Solution/refactor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Solution/refactor.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,11 +80,20 @@
       <option name="presentableId" value="Default" />
       <updated>1670319725487</updated>
     </task>
+    <task id="LOCAL-00001" summary="assignment">
+      <created>1672066214861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672066214861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class practice" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment" />
   </component>
 </project>

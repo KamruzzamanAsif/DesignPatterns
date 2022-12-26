@@ -16,9 +16,34 @@
 
 >>>>>> PlaintextToHtmlConverter <<<<<<<
 1. Black Sheep smell:
-    The method "read" is noticeably different from other methods in
-    the class. So, I made a new class named "FileReader" and added
-    a "readFile" method for reading files which is being called from
-    our main class.
-2.
+    i. The method "read" is noticeably different from other methods in
+        the class. So, I made a new class named "FileReader" and added
+        a "readFile" method for reading files which is being called from
+        our main class.
+    ii. Resetting the list "convertedLine" in method "addNewLine()" is not
+        appropriate. So I made a new method named "resetConvertedLine" for
+        this task.
+2. Redundant method:
+    The method "toHtml()" is redundant I think as I added a Main class
+    and FileReader class. Now toHtml() method just returns the encoded
+    html but that can be achieved directly from "basicHtmlEncode()" method.
+3. Inappropriate naming smell:
+    i.  The variable "source" inappropriate to refer plain text. I rename this
+        as "plainText"
+    ii. The variable "result" is renamed to "htmlText" for better understanding
+4. Comment smell:
+    Both stashNextCharacterAndAdvanceThePointer() and addNewLine() method has
+    comments to understand their functionality. The former is solved in point 5(i)
+    and later is solved in point 1(ii)
+5. Long method smell:
+    i. The "basicHtmlEncode()" method is hard to quickly comprehend and
+        the lines of code is large. Here, if we add a for each loop to
+        read characters form out plainText then it reduces the problem.
+        As for this:
+            * There is no need of the method "stashNextCharacterAndAdvanceThePointer()"
+               we can safely remove it.
+            * There is no need of the variable "characterToConvert", "character", and "i" anymore
+            * And no need to check the break condition every time we iterate the loop
+    ii. The variable "finalResult" is unnecessary here. We can use inline variable
+        instead of this.
 
