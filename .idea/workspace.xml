@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment half done!">
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/TriviaGame/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/TriviaGame/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Solution/TriviaGame/TriviaGame.java" afterDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment done!">
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/FizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/PlaintextToHtmlConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/TriviaGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/refactor.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Solution/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Solution/FizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Solution/refactor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Solution/refactor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/HtmlEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/LessThanChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/PlaintextToHtmlConverter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.SolidPrinciples.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -96,14 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1672071572025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="assignment done!">
+      <created>1672111895519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672111895519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="class practice" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="assignment" />
     <MESSAGE value="assignment half done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment half done!" />
+    <MESSAGE value="assignment done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment done!" />
   </component>
 </project>
