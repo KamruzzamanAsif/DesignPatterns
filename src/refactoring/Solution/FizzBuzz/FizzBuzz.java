@@ -1,4 +1,4 @@
-package refactoring.Solution;
+package refactoring.Solution.FizzBuzz;
 
 public class FizzBuzz {
     public static String getStringOnBasisOfNumber(int number) {

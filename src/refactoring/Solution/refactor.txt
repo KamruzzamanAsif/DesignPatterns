@@ -47,3 +47,29 @@
     ii. The variable "finalResult" is unnecessary here. We can use inline variable
         instead of this.
 
+>>>>>> TriviaGame <<<<<<<
+1. Large Class smell:
+    There is seen many instances variable in our TriviaGame which makes it complex to
+    understand the responsibility of it. So, I introduced 2 new classes "Player" and
+    "Question" to increase understanding.
+2. Primitive obsession:
+    This can be seen in the Linked lists and Arrays used in our class TriviaGame
+    This is solved in point 1.
+3. Redundancy:
+    i. Redundant method "createRockQuestion" which is solved in class "Question"
+    ii. "howManyPlayers()" is a redundant method we can just remove it
+4. Inappropriate naming smell:
+    i. method name "add()" is inappropriate which adds player. I rename it "addPlayer()"
+    ii. the parameter name "roll" in roll() method should be "dice" so I changed it
+5. Long method smell:
+    i. The method "roll()" is hard to quickly comprehend. I extracted a new method
+       "changeLocation()"
+    ii. "currentCategory()" is a long method smell which is resolved as "getCurrentCategory()"
+        in Player class
+    iii. "wasCorrectlyAnswered()" is a long method. I extracted "updateCurrentPlayer()" method
+         and used "incrementPurse()" method from Player class
+    iv. "wrongAnswer()" is a large method. I extracted "updateCurrentPlayer()" and used
+        "setInPenaltyBox()" method from Player class.
+6. Duplicate Code smell:
+    In method "wasCorrectlyAnswered()" the code duplication was found. So, I removed the
+    duplicate part and restructured the method. Some other changes were made (point 5(iii))
