@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment done!">
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/FizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/PlainTextToHtml/PlaintextToHtmlConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/TriviaGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/refactor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/HtmlEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/LessThanChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/PlaintextToHtmlConverter.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672111895519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="assignment done!">
+      <created>1672112716153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672112716153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="assignment done!">
+      <created>1672112818000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672112818000</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
