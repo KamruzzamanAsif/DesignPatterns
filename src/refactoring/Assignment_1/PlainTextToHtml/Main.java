@@ -1,4 +1,4 @@
-package refactoring.Solution.PlainTextToHtml;
+package refactoring.Assignment_1.PlainTextToHtml;
 
 import java.io.IOException;
 

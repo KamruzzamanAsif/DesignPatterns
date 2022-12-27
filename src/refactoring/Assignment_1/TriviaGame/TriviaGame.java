@@ -1,4 +1,4 @@
-package refactoring.Solution.TriviaGame;
+package refactoring.Assignment_1.TriviaGame;
 
 import refactoring.Solution.TriviaGame.Player;
 import refactoring.Solution.TriviaGame.Question;

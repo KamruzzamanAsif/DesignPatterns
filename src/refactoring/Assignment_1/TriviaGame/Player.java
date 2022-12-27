@@ -1,4 +1,4 @@
-package refactoring.Solution.TriviaGame;
+package refactoring.Assignment_1.TriviaGame;
 
 public class Player {
     private String playerName;

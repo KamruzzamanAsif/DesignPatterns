@@ -1,4 +1,4 @@
-package refactoring.Solution.TriviaGame;
+package refactoring.Assignment_1.TriviaGame;
 
 import java.util.HashMap;
 import java.util.LinkedList;
