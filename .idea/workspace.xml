@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment">
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/BoosterMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PageSaveMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/TonerSaveMode.java" afterDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment_2">
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrioritySetting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintJob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670919336418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="assignment_2">
+      <created>1672124777779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672124777779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="class practice" />
     <MESSAGE value="assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment" />
+    <MESSAGE value="assignment_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment_2" />
   </component>
 </project>
