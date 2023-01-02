@@ -5,7 +5,8 @@ import refactoring.Solution.TriviaGame.Question;
 
 import java.util.ArrayList;
 
-public class TriviaGame {
+public class
+TriviaGame {
     ArrayList<Player> players = new ArrayList<Player>();
     int currentPlayer = 0;
     boolean isGettingOutOfPenaltyBox;

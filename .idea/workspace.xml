@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment_2" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment_2">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/BombedMazeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/BombedWall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/DoorNeedingSpell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/EnchantRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/EnchantedMazeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/MazeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/RoomWithBomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Jan02/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/TriviaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Assignment_1/TriviaGame/TriviaGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/PrintMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintMode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +55,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPattern.Jan02" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.SolidPrinciples.lsp.Solution.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -111,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672124777779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="assignment_2">
+      <created>1672630269923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672630269923</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
