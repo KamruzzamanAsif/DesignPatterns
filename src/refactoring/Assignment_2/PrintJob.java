@@ -1,6 +1,8 @@
-package refactoring.Scenario;
+package refactoring.Assignment_2;
 
-import java.util.LinkedList;
+import refactoring.Scenario.PrintRequest;
+import refactoring.Scenario.PrioritySetting;
+
 import java.util.Queue;
 
 public class PrintJob {
@@ -14,10 +16,4 @@ public class PrintJob {
     public void pullJob() {
         // send a specific job to production based on the priority setting
     }
-
-    // Feature Envy smell , Black Sheep//
-    public void changePriority(PrintRequest request, int newPriority) {
-        // change the priority of the given PrintRequest
-    }
-
 }

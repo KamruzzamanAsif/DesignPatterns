@@ -1,7 +1,10 @@
 package refactoring.Scenario;
 
 public class TonerSaveMode extends PrintMode{
+    // Refused Bequest smell //
     private String tonerSavingLevel;
+
+    // duplicate code smell //
     @Override
     public void saveToner() {
         if(tonerSavingLevel == "high"){

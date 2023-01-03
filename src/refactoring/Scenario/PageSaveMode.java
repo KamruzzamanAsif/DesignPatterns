@@ -1,6 +1,8 @@
 package refactoring.Scenario;
 
 public class PageSaveMode extends PrintMode{
+
+    // Refused Bequest smell //
     @Override
     public void saveToner() {
 

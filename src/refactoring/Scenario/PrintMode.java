@@ -1,6 +1,7 @@
 package refactoring.Scenario;
 
 public abstract class PrintMode {
+    // Data Clumps smell or, Primitive Obsession//
     int numberOfPages;
     int pageSize;
     String orientation;
