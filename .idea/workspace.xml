@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="class practice &quot;Factory method pattern&quot;">
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/BoosterMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/ColorIntensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/HighColorIntensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/LowColorIntensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/MediumColorIntensity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PageSaveMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PageSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PrintJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PrintMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PrintModeProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PrintRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/PrioritySetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/RenderPreview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/refactoring/Assignment_2/TonerSaveMode.java" afterDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="done assignment">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at______PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_২৭_১২_২২_১২_১২_PM_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/BoosterMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/BoosterMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/PageSaveMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PageSaveMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/PrintMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/PrintMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/refactoring/Scenario/TonerSaveMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/refactoring/Scenario/TonerSaveMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672642999993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done assignment">
+      <created>1672729193430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672729193430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +174,7 @@
     <MESSAGE value="assignment" />
     <MESSAGE value="assignment_2" />
     <MESSAGE value="class practice &quot;Factory method pattern&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="class practice &quot;Factory method pattern&quot;" />
+    <MESSAGE value="done assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="done assignment" />
   </component>
 </project>
