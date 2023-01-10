@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="done assignment">
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at______PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_২৭_১২_২২_১২_১২_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="done assignment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
