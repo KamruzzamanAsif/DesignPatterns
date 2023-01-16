@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="cw assignment" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="cw assignment">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/StandardMazeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673335121847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cw assignment">
+      <created>1673850753055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673850753055</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
