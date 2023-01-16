@@ -8,10 +8,13 @@ public class Client {
 
 
     public void seeEmployeeDetails() {
-        BaseEmployeeFactory employeeFactory = new EmployeeManagerFactory().createFactory(employee);
+        EmployeeManagerFactory employeeManagerFactory = new EmployeeManagerFactory();
+        BaseEmployeeFactory employeeFactory = employeeManagerFactory.createFactory(employee);
+
         IEmployeeManager employeeManager = employeeFactory.create();
         employee.bonus = employeeManager.getBonus();
         employee.hourlyPay = employeeManager.getHourlyPay();
+
         System.out.println(employee.bonus);
         System.out.println(employee.hourlyPay);
     }
