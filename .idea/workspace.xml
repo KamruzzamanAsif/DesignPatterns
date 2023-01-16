@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="cw assignment">
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/StandardMazeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="cw builder pattern">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673850753055</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cw builder pattern">
+      <created>1673852569188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673852569188</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +183,7 @@
     <MESSAGE value="class practice &quot;Factory method pattern&quot;" />
     <MESSAGE value="done assignment" />
     <MESSAGE value="cw assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw assignment" />
+    <MESSAGE value="cw builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw builder pattern" />
   </component>
 </project>
