@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="cw builder pattern">
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment done! simple change in client.java">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifScrollbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifWidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMScrollbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMWidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Scrollbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/WidgetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPattern.AbstractFactory" />
       <recent name="refactoring.Assignment_2" />
       <recent name="DesignPattern.Jan02" />
     </key>
@@ -169,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673852662475</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="assignment done! simple change in client.java">
+      <created>1673853528277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673853528277</updated>
+    </task>
+    <task id="LOCAL-00012" summary="assignment done! simple change in client.java">
+      <created>1673853698626</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673853698626</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +218,7 @@
     <MESSAGE value="done assignment" />
     <MESSAGE value="cw assignment" />
     <MESSAGE value="cw builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw builder pattern" />
+    <MESSAGE value="assignment done! simple change in client.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment done! simple change in client.java" />
   </component>
 </project>
