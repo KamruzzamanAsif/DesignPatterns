@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment done!">
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/BombedMazeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/BombedWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/DoorNeedingSpell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/EnchantedMazeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/EnchantedRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/MazeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/RoomWithBomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/MapSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/MazeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/BombedMazeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/EnchantedMazeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/MazeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/MazeGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e38a8ad4-2ba3-424a-b722-07e7e2402849" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,7 +46,8 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.SolidPrinciples.Main">
@@ -136,6 +131,17 @@
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
