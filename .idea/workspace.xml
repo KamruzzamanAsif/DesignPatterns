@@ -4,84 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="assignment done!">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/AnalogClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/ClockTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/CW/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at______PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_২৮_১_২৩_২_২৬_PM_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="message isn't printing">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifScrollbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/MotifScrollbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/MotifWidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/MotifWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/MotifWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMScrollbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/PMScrollbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMWidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/PMWidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/PMWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/PMWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Scrollbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/Scrollbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/WidgetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/WidgetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/AbstractFactory/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/MazeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/CW/StandardMazeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/BuilderPattern/CW/StandardMazeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/1217.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/1217.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/BaseEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/ContractEmployeeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/EmployeeManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/IEmployeeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/FactoryMethod/PermanentEmployeeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/Singletoon/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/Singletoon/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/InClassScenarioMakingCW/Singletoon/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/InClassScenarioMakingCW/Singletoon/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/BombedMazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/BombedMazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/BombedWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/BombedWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/DoorNeedingSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/DoorNeedingSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/EnchantRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/EnchantRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/EnchantedMazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/EnchantedMazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/RoomWithBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/RoomWithBomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Jan02/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/Jan02/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/BombedMazeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/AbstractFactory/BombedMazeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/AbstractFactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/EnchantedMazeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/AbstractFactory/EnchantedMazeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/MazeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/AbstractFactory/MazeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/AbstractFactory/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/AbstractFactory/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/BombedMazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/BombedMazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/BombedWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/BombedWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/DoorNeedingSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/DoorNeedingSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/EnchantedMazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/EnchantedMazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/EnchantedRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/EnchantedRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/FactoryMethod/RoomWithBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/FactoryMethod/RoomWithBomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/MapSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/MapSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/MazeGame/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalDesignPattern/MazeGame/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e38a8ad4-2ba3-424a-b722-07e7e2402849" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,13 +46,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.BehavioralDesignPattern.ObserverPattern.InClassAssignment.Main">
     <configuration name="BehavioralDesignPattern.ObserverPattern.InClassAssignment.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralDesignPattern.ObserverPattern.InClassAssignment.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralDesignPattern.ObserverPattern.InClassAssignment.*" />
+          <option name="PATTERN" value="BehavioralDesignPattern.ObserverPattern.InClassAssignment.Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,9 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralDesignPattern.ObserverPattern.InClassAssignment.test" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralDesignPattern.ObserverPattern.InClassAssignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BehavioralDesignPattern.ObserverPattern.InClassAssignment.Main" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.SolidPrinciples.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -214,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672112902908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="message isn't printing">
+      <created>1676358863692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676358863692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +186,7 @@
     <MESSAGE value="assignment" />
     <MESSAGE value="assignment half done!" />
     <MESSAGE value="assignment done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment done!" />
+    <MESSAGE value="message isn't printing" />
+    <option name="LAST_COMMIT_MESSAGE" value="message isn't printing" />
   </component>
 </project>
