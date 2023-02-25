@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="message isn't printing">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main_structure.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/DesignPatterns/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files" />
