@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="message isn't printing">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Files/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/ConcreteSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/ObserverPattern/InClassAssignment/test.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="9cbe42d0-897a-4dd0-bc3c-d5c813788fb0" name="Changes" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676358863692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done">
+      <created>1676368740129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676368740129</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +188,7 @@
     <MESSAGE value="assignment half done!" />
     <MESSAGE value="assignment done!" />
     <MESSAGE value="message isn't printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="message isn't printing" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
