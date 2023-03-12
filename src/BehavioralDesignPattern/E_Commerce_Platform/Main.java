@@ -1,5 +1,5 @@
 package BehavioralDesignPattern.E_Commerce_Platform;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         UserManagement userManagement = new UserManagement();
@@ -10,8 +10,27 @@ public class Main {
 //        userManagement.registerUser(newUser);
 
         // Login an existing user and get the user object
-        User loggedInUser = userManagement.loginUser("john", "123");
+//        User loggedInUser = userManagement.loginUser("john", "123");
+//
+//        userManagement.closeDatabase();
 
+        System.out.println("***********Login Portal**************");
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter user name: ");
+        String username = input.nextLine();
+        System.out.print("\nEnter password: ");
+        String password = input.nextLine();
+        User loggedInUser = userManagement.loginUser(username, password);
+        if(loggedInUser != null){
+            enterWebsite(loggedInUser);
+        }
+        else{
+            System.out.println("User not found or, password doesn't match");
+        }
         userManagement.closeDatabase();
+    }
+
+    public static void enterWebsite(User user){
+
     }
 }
