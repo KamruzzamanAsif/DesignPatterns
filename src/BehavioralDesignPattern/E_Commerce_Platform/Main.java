@@ -24,13 +24,10 @@ public class Main {
         if(loggedInUser != null){
             enterWebsite(loggedInUser);
         }
-        else{
-            System.out.println("User not found or, password doesn't match");
-        }
         userManagement.closeDatabase();
     }
 
     public static void enterWebsite(User user){
-
+        System.out.println("***********User Portal**************");
     }
 }

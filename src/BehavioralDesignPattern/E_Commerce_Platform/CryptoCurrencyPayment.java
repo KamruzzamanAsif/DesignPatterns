@@ -1,9 +1,14 @@
 package BehavioralDesignPattern.E_Commerce_Platform;
 
-public class CryptoCurrencyPayment implements Payment{
+public class CryptoCurrencyPayment implements PaymentMethod {
 
     @Override
-    public void processPayment(User user, double amount) {
-        System.out.println(user.getUsername() + " paid" + amount + " using CryptoCurrency");
+    public void processPayment(double amount) {
+        System.out.println("Payment done with CryptoCurrency. Total tk = " + amount);
+    }
+
+    @Override
+    public double getDiscount() {
+        return 50.0;
     }
 }
