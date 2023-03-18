@@ -1,0 +1,2 @@
+apple, australian green apple, 120, green-apple, 55
+banana, native banana, 10, yellow-banana, 30

@@ -1,5 +1,9 @@
 package BehavioralDesignPattern.E_Commerce_Platform;
-import java.util.ArrayList;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
 public class ShopManager implements IShopManager {
@@ -7,20 +11,114 @@ public class ShopManager implements IShopManager {
     List<User> users = null;
     List<PaymentMethod> paymentMethods = null;
 
-    public ShopManager(ArrayList<Product> products, ArrayList<User> users, ArrayList<PaymentMethod> paymentMethods){
-       this.products = products;
-       this.users = users;
-       this.paymentMethods = paymentMethods;
+    public ShopManager(){
+       loadUsers();
+       loadProducts();
+       loadPaymentMethods();
+    }
+
+    private void loadUsers() {
+        String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/users.txt";
+        String line = null;
+
+        try {
+            FileReader fileReader = new FileReader(filename);
+
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            while ((line = bufferedReader.readLine()) != null) {
+                String[] fields = line.split(",");
+
+                String userName = fields[0].trim();
+                String email = fields[1].trim();
+                String password = fields[2].trim();
+                String address = fields[3].trim();
+
+                User user = new User(userName, email, password, address);
+
+                this.users.add(user);
+            }
+
+            bufferedReader.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void loadProducts() {
+
+        String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/products.txt";
+        String line = null;
+
+        try {
+            FileReader fileReader = new FileReader(filename);
+
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            while ((line = bufferedReader.readLine()) != null) {
+                String[] fields = line.split(",");
+
+                String productName = fields[0].trim();
+                String productDescription = fields[1].trim();
+                double productPrice = Double.parseDouble(fields[2].trim());
+                String productImage = fields[3].trim();
+                int productInventory = Integer.parseInt(fields[4].trim());
+
+                Product product = new Product(productName, productDescription, productPrice, productImage, productInventory);
+
+                this.products.add(product);
+            }
+
+            bufferedReader.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void loadPaymentMethods() {
+        paymentMethods.add(new CreditCardPayment());
+        paymentMethods.add(new PayPalPayment());
+        paymentMethods.add(new CryptoCurrencyPayment());
     }
 
     @Override
     public void addProduct(Product product) {
         this.products.add(product);
+
+        String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/products.txt";
+        String newProductData = product.getName()+","+product.getDescription()+","+
+                product.getPrice()+","+product.getImage()+","+product.getInventory();
+
+        try {
+            FileWriter fileWriter = new FileWriter(filename, true);
+
+            fileWriter.write("\n" + newProductData);
+
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void addUser(User user) {
         this.users.add(user);
+
+        String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/users.txt";
+        String newProductData = user.getUsername()+","+user.getEmail()+","+
+                user.getPassword()+","+user.getAddress();
+
+        try {
+            FileWriter fileWriter = new FileWriter(filename, true);
+
+            fileWriter.write("\n" + newProductData);
+
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

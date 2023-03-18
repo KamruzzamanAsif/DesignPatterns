@@ -46,6 +46,6 @@ public class Product {
                 "\n Description: " + this.getDescription() +
                 "\n Price: " + this.getPrice() +
                 "\n Image: " + this.getImage() +
-                "\n Quantity: " + this.getInventory();
+                "\n Inventory: " + this.getInventory();
     }
 }
