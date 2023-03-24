@@ -2,32 +2,28 @@ package BehavioralDesignPattern.E_Commerce_Platform;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        UserManagement userManagement = new UserManagement();
-        userManagement.initializeDatabase();
+        RahimErDokan rahimErDokan = new RahimErDokan();
+        Constants constants = Constants.getInstance();
+        System.out.println(constants.welcome_message);
 
-        // Create a new user object and register it
-//        User newUser = new User("john", "john@gmail.com", "123", "US");
-//        userManagement.registerUser(newUser);
-
-        // Login an existing user and get the user object
-//        User loggedInUser = userManagement.loginUser("john", "123");
-//
-//        userManagement.closeDatabase();
-
-        System.out.println("***********Login Portal**************");
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter user name: ");
-        String username = input.nextLine();
-        System.out.print("\nEnter password: ");
-        String password = input.nextLine();
-        User loggedInUser = userManagement.loginUser(username, password);
-        if(loggedInUser != null){
-            enterWebsite(loggedInUser);
+        while (true){
+            System.out.println(constants.login_message);
+            Scanner input = new Scanner(System.in);
+            String choice = input.next();
+            if(choice.equals("1")){
+                if(rahimErDokan.login()) {
+                    rahimErDokan.shopHandling();
+                    break;
+                }
+            }
+            else if(choice.equals("2")){
+                rahimErDokan.registerUser();
+                break;
+            }
+            else{
+                System.out.println(constants.wrong_input);
+            }
         }
-        userManagement.closeDatabase();
     }
 
-    public static void enterWebsite(User user){
-        System.out.println("***********User Portal**************");
-    }
 }

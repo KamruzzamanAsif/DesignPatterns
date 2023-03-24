@@ -35,16 +35,16 @@ public class Product {
         return description;
     }
 
-    protected void updateInventory() {
-        this.inventory--;
+    protected void updateInventory(int quantity) {
+        this.inventory -= quantity;
     }
 
 
     @Override
     public String toString() {
-        return "\tProduct Name: " + this.getName() +
+        return "\n Product Name: " + this.getName() +
                 "\n Description: " + this.getDescription() +
-                "\n Price: " + this.getPrice() +
+                "\n Price: Tk. " + this.getPrice() +
                 "\n Image: " + this.getImage() +
                 "\n Inventory: " + this.getInventory();
     }

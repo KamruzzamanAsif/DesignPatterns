@@ -4,12 +4,14 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class ShopManager implements IShopManager {
-    List<Product> products = null;
-    List<User> users = null;
-    List<PaymentMethod> paymentMethods = null;
+    List<Product> products = new ArrayList<>();
+    List<User> users = new ArrayList<>();
+    List<PaymentMethod> paymentMethods = new ArrayList<>();
 
     public ShopManager(){
        loadUsers();
@@ -119,6 +121,8 @@ public class ShopManager implements IShopManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        System.out.println("User registered successfully!");
     }
 
     @Override
@@ -141,12 +145,6 @@ public class ShopManager implements IShopManager {
         this.paymentMethods.remove(paymentMethod);
     }
 
-    @Override
-    public void displayProducts() {
-        for(Product product: products){
-            System.out.println(product.toString());
-        }
-    }
 
     // getters
     public List<Product> getProducts() {
@@ -161,17 +159,28 @@ public class ShopManager implements IShopManager {
 
 
     @Override
-    public void purchaseProduct(Product product, User user, PaymentMethod paymentMethod) {
-        if (products.contains(product) && users.contains(user) && paymentMethods.contains(paymentMethod)) {
-            double totalPrice = product.getPrice() * (1 - paymentMethod.getDiscount());
-            paymentMethod.processPayment(totalPrice);
-            product.updateInventory();
-            sendOrderConfirmationMessage(product, user, paymentMethod);
-            sendPaymentReceipt(user, paymentMethod);
+    public void purchaseProduct(Map<Product, Integer> productCart, User user) {
+        double totalPrice = 0.0;
+
+        for (Map.Entry<Product, Integer> entry : productCart.entrySet()) {
+            Product product = entry.getKey();
+            int quantity = entry.getValue();
+
+            updateProductInventory(product.getName(), quantity);
+
+            totalPrice += product.getPrice() * quantity;
         }
-        else {
-            System.out.println("Product " + product.getName() + " cannot be bought");
+    }
+
+    private void updateProductInventory(String productName, int quantity){
+        for (Product product: this.products){
+            if(product.getName().equals(productName)){
+                product.updateInventory(quantity);
+            }
         }
+
+        String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/products.txt";
+        /// update in file /// todo
     }
 
     private void sendPaymentReceipt(User user, PaymentMethod paymentMethod) {
@@ -180,5 +189,24 @@ public class ShopManager implements IShopManager {
 
     public void sendOrderConfirmationMessage(Product product, User user, PaymentMethod paymentMethod){
         user.getOrderConfirmation(product.getName() + " is bought");
+    }
+
+
+    public boolean isUserExist(String userName, String password){
+        for(User user : users){
+            if(user.getUsername().equals(userName) && user.getPassword().equals(password)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public User getUser(String username, String password){
+        for(User user : users){
+            if(user.getUsername().equals(username) && user.getPassword().equals(password)){
+                return user;
+            }
+        }
+        return null;
     }
 }
