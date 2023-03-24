@@ -31,4 +31,11 @@ public class Constants {
             wrong input choice
             """;
 
+
+    public final String payment_methods = """
+            
+            1. credit card
+            2. crypto currency
+            3. paypal
+            """;
 }

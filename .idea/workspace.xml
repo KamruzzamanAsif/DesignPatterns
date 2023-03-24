@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1caf2337-687b-46c2-89d8-791a859d125d" name="Changes" comment="&quot;not done yet&quot;">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at______PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_১২_৩_২৩_১২_৫৩_PM_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ECommerceTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ECommerceTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CreditCardPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CryptoCurrencyPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CryptoCurrencyPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/IShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/IShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/MyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PayPalPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PayPalPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/sqlite-jdbc-3.41.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/UserManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,5 +105,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,8 +7,8 @@ public interface IShopManager {
     void addProduct(Product product);
     void addUser(User user);
     void addPaymentMethod(PaymentMethod paymentMethod);
-    void removeProduct(Product product);
-    void removeUser(User user);
+    void removeProduct(String productName);
+    void removeUser(String username);
     void removePaymentMethod(PaymentMethod paymentMethod);
     void purchaseProduct(Map<Product, Integer> productCart, User user);
 }
