@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b17730f8-7b0c-470a-af33-13879ba08839" name="Changes" comment="class practice">
+||||||| 9f31b0b
+    <list default="true" id="b17730f8-7b0c-470a-af33-13879ba08839" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPattern/DecoratorPattern/BorderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPattern/DecoratorPattern/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPattern/DecoratorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPattern/DecoratorPattern/TextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralDesignPattern/DecoratorPattern/VisualComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+    <list default="true" id="1caf2337-687b-46c2-89d8-791a859d125d" name="Changes" comment="&quot;not done yet&quot;">
+>>>>>>> 5a4a202811a72faa364b4b93c74740b5d66b7344
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ECommerceTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ECommerceTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,21 +31,52 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N7ZuvwFT9C6zdXNVM1vg19QQ2Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralDesignPattern.DecoratorPattern.Main" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.BehavioralDesignPattern.E_Commerce_Platform.Main">
+    <configuration name="BehavioralDesignPattern.E_Commerce_Platform.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralDesignPattern.E_Commerce_Platform.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralDesignPattern.DecoratorPattern.*" />
+          <option name="PATTERN" value="BehavioralDesignPattern.E_Commerce_Platform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralDesignPattern.COR.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralDesignPattern.COR.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -39,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BehavioralDesignPattern.E_Commerce_Platform.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -46,11 +94,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b17730f8-7b0c-470a-af33-13879ba08839" name="Changes" comment="" />
-      <created>1678688201296</created>
+      <changelist id="1caf2337-687b-46c2-89d8-791a859d125d" name="Changes" comment="&quot;not done yet&quot;" />
+      <created>1679017316328</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678688201296</updated>
+      <updated>1679017316328</updated>
     </task>
     <task id="LOCAL-00001" summary="class practice">
       <created>1678689416875</created>
@@ -62,8 +110,41 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class practice" />
     <option name="LAST_COMMIT_MESSAGE" value="class practice" />
   </component>
+||||||| 9f31b0b
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> 5a4a202811a72faa364b4b93c74740b5d66b7344
 </project>

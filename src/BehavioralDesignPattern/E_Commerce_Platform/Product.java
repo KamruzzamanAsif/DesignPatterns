@@ -35,33 +35,17 @@ public class Product {
         return description;
     }
 
-    public void displayDetails() {
-        System.out.println(getName());
-        System.out.println(getDescription());
-        System.out.println(getPrice());
-        System.out.println(getImage());
-        System.out.println(getInventory());
+    protected void updateInventory(int quantity) {
+        this.inventory -= quantity;
     }
 
-    public void purchase(User user, Payment payment) {
-        if (getInventory() > 0) {
-            makePayment(user, payment);
-            updateInventory();
-            sendConfirmationEmail(user);
-        } else {
-            System.out.println("This product is out of stock.");
-        }
-    }
 
-    protected void makePayment(User user, Payment payment) {
-        // logic for processing payment
-    }
-
-    protected void updateInventory() {
-        this.inventory--;
-    }
-
-    protected void sendConfirmationEmail(User user) {
-        // logic for sending confirmation email
+    @Override
+    public String toString() {
+        return "\n Product Name: " + this.getName() +
+                "\n Description: " + this.getDescription() +
+                "\n Price: Tk. " + this.getPrice() +
+                "\n Image: " + this.getImage() +
+                "\n Inventory: " + this.getInventory();
     }
 }

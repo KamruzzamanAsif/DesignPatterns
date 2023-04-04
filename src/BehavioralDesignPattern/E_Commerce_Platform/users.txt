@@ -1,0 +1,4 @@
+admin,admin@gmail.com,admin123,dhaka
+tom,tom@gmail.com,tom123,faridpur
+asif,asif@gmail.com,asif123,dhaka
+rahim,rahim@gmail.com,rahim123,dhaka

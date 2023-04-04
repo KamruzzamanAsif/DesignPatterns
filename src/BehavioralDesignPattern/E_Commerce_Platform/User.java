@@ -22,4 +22,11 @@ public class User {
         return this.address;
     }
 
+    public void getOrderConfirmation(String message){
+        System.out.println(message);
+    }
+
+    public void receivePaymentReceipt(String receipt) {
+        System.out.println(receipt);
+    }
 }
