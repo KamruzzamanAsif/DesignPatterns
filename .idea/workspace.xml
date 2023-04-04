@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1caf2337-687b-46c2-89d8-791a859d125d" name="Changes" comment="&quot;not done yet&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CreditCardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CryptoCurrencyPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/CryptoCurrencyPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/IShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/IShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PayPalPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PayPalPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/RahimErDokan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/ShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/UserManagement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralDesignPattern/E_Commerce_Platform/1217.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.BehavioralDesignPattern.E_Commerce_Platform.Main">
     <configuration name="BehavioralDesignPattern.E_Commerce_Platform.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralDesignPattern.E_Commerce_Platform.Main" />
@@ -105,6 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
