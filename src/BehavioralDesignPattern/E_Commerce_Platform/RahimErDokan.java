@@ -67,7 +67,7 @@ public class RahimErDokan extends ECommerceTemplate{
             System.out.println("Enter product description: ");
             String product_description = scanner.next();
             System.out.println("Enter product price: ");
-            String product_price = scanner.next();
+            String product_price = Integer.toString(scanner.nextInt());
             System.out.println("Enter product image: ");
             String product_image = scanner.next();
             System.out.println("Enter product inventory: ");
@@ -77,6 +77,7 @@ public class RahimErDokan extends ECommerceTemplate{
                     Integer.parseInt(product_price), product_image, Integer.parseInt(product_inventory));
             this.products.add(newProduct);
             shopManager.addProduct(newProduct);
+            System.out.println("Product added successfully");
         }
         else if(choice.equals("2")){
             System.out.println("Enter product name: ");
@@ -90,6 +91,7 @@ public class RahimErDokan extends ECommerceTemplate{
             }
             shopManager.removeProduct(product_name.trim());
             this.products.remove(productToRemove);
+            System.out.println("Product removed successfully");
         }
     }
 

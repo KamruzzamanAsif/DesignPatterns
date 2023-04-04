@@ -92,7 +92,7 @@ public class ShopManager implements IShopManager {
 
         String filename = "src/BehavioralDesignPattern/E_Commerce_Platform/products.txt";
         String newProductData = product.getName()+","+product.getDescription()+","+
-                product.getPrice()+","+product.getImage()+","+product.getInventory();
+                (int)product.getPrice()+","+product.getImage()+","+product.getInventory();
 
         try {
             FileWriter fileWriter = new FileWriter(filename, true);
