@@ -8,8 +8,8 @@ public class CryptoCurrencyPayment implements PaymentMethod {
     }
 
     @Override
-    public void processPayment(double amount) {
-        System.out.println("Payment done with CryptoCurrency. Total tk = " + amount);
+    public void processPayment(double amount, User user) {
+        System.out.println("Payment done with CryptoCurrency. For User " + user.getUsername() + " Total tk = " + amount);
     }
 
     @Override

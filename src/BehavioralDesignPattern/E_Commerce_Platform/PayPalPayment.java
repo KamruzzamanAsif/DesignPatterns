@@ -8,8 +8,8 @@ public class PayPalPayment implements PaymentMethod {
     }
 
     @Override
-    public void processPayment(double amount) {
-        System.out.println("Payment done with Paypal. Total tk = " + amount);
+    public void processPayment(double amount, User user) {
+        System.out.println("Payment done with Paypal. For User " + user.getUsername() + " Total tk = " + amount);
     }
 
     @Override

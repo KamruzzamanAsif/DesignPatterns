@@ -127,11 +127,6 @@ public class ShopManager implements IShopManager {
     }
 
     @Override
-    public void addPaymentMethod(PaymentMethod paymentMethod) {
-        this.paymentMethods.add(paymentMethod);
-    }
-
-    @Override
     public void removeProduct(String productName) {
         // Find the product with the specified name in the list
         Product productToRemove = null;
@@ -199,11 +194,6 @@ public class ShopManager implements IShopManager {
         System.out.println("User removed Successfully!");
     }
 
-    @Override
-    public void removePaymentMethod(PaymentMethod paymentMethod) {
-        this.paymentMethods.remove(paymentMethod);
-    }
-
 
     // getters
     public List<Product> getProducts() {
@@ -211,9 +201,6 @@ public class ShopManager implements IShopManager {
     }
     public List<User> getUsers() {
         return this.users;
-    }
-    public List<PaymentMethod> getPaymentMethods() {
-        return this.paymentMethods;
     }
 
 
@@ -240,7 +227,7 @@ public class ShopManager implements IShopManager {
         for (PaymentMethod paymentMethod : paymentMethods) {
             if (payment_choice == paymentMethod.getPaymentID()) {
                 discount_price = paymentMethod.getDiscount();
-                paymentMethod.processPayment(totalPrice - discount_price);
+                paymentMethod.processPayment(totalPrice - discount_price, user);
             }
         }
 
